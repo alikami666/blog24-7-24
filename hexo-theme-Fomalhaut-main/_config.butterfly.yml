@@ -84,7 +84,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   preload: true
   CDN:
 
