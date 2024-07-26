@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: alikami🥝
+title: 甜大爷🌶️
 subtitle: 
-description: 'welcome to my blog 🍭🍭🍭'
+description: 'Future is now 🍭🍭🍭'
 keywords: '(,,´•ω•)ノ"(´っω•｀。)'
-author: alikami🥝
+author: alikami🌶️
 language: zh-CN
 timezone: ''
 
@@ -35,7 +35,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 # 指定不渲染某些页面
 skip_render: 
-  - "html/**" 
+
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
@@ -124,8 +124,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository: git@github.com:alikami666/alikami666.github.io.git # 这里写上你的Github地址
-    branch: my
+    repository: git@github.com:alikami666/blog24-7-24.git # 这里写上你的Github地址
+    branch: main
   # - type: baidu_url_submitter
   # - type: git
   #   #repo改为repo: git@域名:/var/repo/hexo.git
@@ -264,7 +264,7 @@ plugins:
 
 # 小冰分类磁贴
 magnet:
-  enable: false
+  enable: true
   priority: 2
   enable_page: /
   type: categories
