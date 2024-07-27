@@ -3,7 +3,16 @@
 # --------------------------------------
 
 menu:
-  首页: / || icon-home || faa-tada
+  # 必须是 /xxx/，后面||分开，然后写图标名，如果不想显示图标，图标名可不写
+
+  #  若主题版本大于 v4.0.0，可以直接在子目录里添加 hide 隐藏子目录，如下面的List
+  #  List||fas fa-list||hide:
+  #    Music: /music/ || fas fa-music
+  #      Movie: /movies/ || fas fa-video
+
+  # 名称: /路径/ || 图标名 || ? || hide(收起)
+#  首页: / || icon-home || faa-tada
+  首页: / || shengdanlihe || faa-tada
   文章 || icon--article || faa-tada || hide:
     归档: /archives/ || icon-guidang1 || faa-tada
     标签: /tags/ || icon-sekuaibiaoqian || faa-tada
@@ -113,7 +122,7 @@ favicon:
 
 # 头像
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: https://i.postimg.cc/WbqXZj05/1-1.png
   effect: false # 头像转圈圈
 
 # 禁止展示所有图
@@ -127,12 +136,12 @@ index_img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
 default_top_img: https://i.postimg.cc/cJfJtKJd/pc-day.webp
 
 # 文档banner图
-archive_img: rgb(0,0,0,0)
+archive_img:
 
 # tag 子页面banner图
 # format:
 #  - tag name: xxxxx
-tag_img: rgb(0,0,0,0)
+tag_img:
 
 # tag 子页面banner图
 # format:
@@ -159,6 +168,8 @@ cover:
   # 文章默认封面
   default_cover:
     - https://source.fomal.cc/img/default_cover_14.webp
+    - https://i.postimg.cc/fRp39njf/article-bg27.webp
+    - https://i.postimg.cc/YC1RX3ng/2-2.jpg
     # ...
 
 # 404页面
@@ -925,6 +936,7 @@ inject:
     - <span id="fps"></span> # 帧率检测
     - <style id="defineBg"></style> # 自定义背景选项
     - <style id="menu_shadow"></style> # 菜单发光样式
+    - <link rel="stylesheet" href="/css/font.css"> # 引入刚刚新建的css文件
 
   bottom:
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery

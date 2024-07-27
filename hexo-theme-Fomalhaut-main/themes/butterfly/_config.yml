@@ -840,6 +840,7 @@ inject:
     # - <link rel="stylesheet" href="/css/mouse.css">
     # - <link rel="stylesheet" href="/zan/zan.css">
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/font.css"> # 引入刚刚新建的css文件
   bottom:
     # - <script src="https://cdn1.lncld.net/static/js/3.5.0/av-min.js"></script>
     # - <script src="/zan/zan.js"></script>
